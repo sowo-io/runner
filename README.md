@@ -1,2 +1,1 @@
-# runner
-Runner for gitlab CI
+# Sowo Gitlab Runner
