@@ -9,6 +9,8 @@ RUN npm install -g html-minifier
 RUN npm install -g cssnano cssnano-cli
 RUN npm install -g claudia
 RUN npm install -g aws-sdk -O
+RUN npm install -g serverless
+
 RUN mkdir -p ~/.ssh/
 RUN echo -e "Host *\n  StrictHostKeyChecking no\n  UserKnownHostsFile=/dev/null" > ~/.ssh/config
 
